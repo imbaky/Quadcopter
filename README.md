@@ -76,6 +76,8 @@ How it's done:
 ###Communication
 
 Initially the arducopter was only setup to recieve telemetry while connected through the usb connector. We soldered telemetry pins on board in order to connect an Xbee pro on board for two-way communication between our laptop and Apm.
+</br><img src="./images/xbeeCommunication.jpg" alt="Xbee Connection" height="400"width="600">
+
 
 ###Parameter changes
 Changes to the default parameter in Arducopter can be written using the mission planner.
