@@ -42,7 +42,7 @@ Configuring the motor directions:
 2. Observed the direction they turn in. 
 3. Switch any two of the wires to reverse the direction of the motors to much the diagram below. 
 
-</br><img src="./images/Motor_Dir.JPG" alt="Motor direction" height="400" width="700">
+</br><img src="./images/Motor_Dir.jpg" alt="Motor direction" height="400" width="700">
 
 ###RC Setup
 The remote control and transceiver need to be binded as follows:
