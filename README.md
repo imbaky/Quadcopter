@@ -1,6 +1,8 @@
 # QuadCopter Project
 This project is for our Embedded systems course. Our plan is to build a QuadCopter that would be able to stabilize indoors using a camera on board that it will use an object as reference points.
 
+We plan to achieve this using the beaglebone black running a program using OpenCV library which communicate with a Teensy board to simulate RC servo pwm commands.
+
 
 
 ##Hardware
