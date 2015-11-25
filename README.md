@@ -51,7 +51,7 @@ The remote control and transceiver need to be binded as follows:
 2. Turn off power controller.
 3. Power on the controller while pressing the Training button on top of the controller until the light on the transceiver turns solid. 
 
-##Modification
+##Modifications
 
 ###ESC
 The ESC is usually sold with a firmware that limits its refresh speed to  8khz. We decided to flash it with SimonK firmware that allows the refresh speed to reach 400khz which allows more control on the motors.
