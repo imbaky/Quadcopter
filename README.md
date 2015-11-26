@@ -82,6 +82,7 @@ Initially the arducopter was only setup to recieve telemetry while connected thr
 
 In order for this to work the Xbees need to be configured to 57600 Baud rate and binded together.
 To bind the Xbees properly follow the following steps:
+
 1. Connect the first Xbee and run XCTU.
 2. Read the device configuration and record the Serial number of the Xbee
 3. change the Pan ID to #### for digits of your choice.
