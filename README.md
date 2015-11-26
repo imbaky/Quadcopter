@@ -80,6 +80,18 @@ How it's done:
 Initially the arducopter was only setup to recieve telemetry while connected through the usb connector. We soldered telemetry pins on board in order to connect an Xbee pro on board for two-way communication between our laptop and Apm.
 </br><img src="./images/xbeeCommunication.jpg" alt="Xbee Connection" height="400"width="600">
 
+In order for this to work the Xbees need to be configured to 57600 Baud rate and binded together.
+To bind the Xbees properly follow the following steps:
+1. Connect the first Xbee and run XCTU.
+2. Read the device configuration and record the Serial number of the Xbee
+3. change the Pan ID to #### for digits of your choice.
+4. Change to Coordinator
+5. Disconnect the first Xbee and connect the second Xbee
+6. Change the Pan ID to the same 4 digits chosen previously
+7. Change the DH to the first 6 digits of the serial number of the first Xbee
+8. change the DL to the rest of the serial number of the first Xbee
+9. change the Xbee to End
+
 
 ###Parameter changes
 Changes to the default parameter in Arducopter can be written using the mission planner.
