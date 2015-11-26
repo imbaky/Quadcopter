@@ -36,6 +36,7 @@ The way to select which mode you want is with the DIP switch on the IMU board:
 
 ###Connections
 </br><img src="./images/DiagramRC_APM14.jpg" alt="APM connections" height="400" width="600">
+
 N.B that these are the default connections prior to the changes made to the parameters.
 
 ###Motor Setup
