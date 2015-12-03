@@ -100,10 +100,15 @@ To bind the Xbees properly follow the following steps:
 Changes to the default parameter in Arducopter can be written using the mission planner.
 * Changed RC pins for Throttle, Yaw, Pitch and Roll to correspond with RC transciever. (channel 7, 6, 5 and 4)
 
+###Calibration
+1. RC Calibration.
+2. Compass Calibration.
+3. Motor and Compass calibration.
+4. Accelerometer Calibration.
 
 ##Issues and Failures
 1. Initially we thought that since the ESCs we have are similar to the DYS designs that they should be flashed with SimonK's DYS N-FET bu that was a mistake, because these ESC's are quite different.
-
+2. Motors started spinning slightly after Arming, disabled MOT_SPIN_ARMED parameter. 
 
 ##References
 1. APM archived manual- https://code.google.com/p/ardupirates/wiki/RC 
