@@ -101,11 +101,30 @@ Changes to the default parameter in Arducopter can be written using the mission 
 * Changed RC pins for Throttle, Yaw, Pitch and Roll to correspond with RC transciever. (channel 7, 6, 5 and 4)
 
 ###Calibration
-1. RC Calibration.
-2. Compass Calibration.
-3. Motor and Compass calibration.
-4. Accelerometer Calibration.
+####1. RC Calibration.
+####2. Compass Calibration.
+####3. Motor and Compass calibration.
+####4. Accelerometer Calibration.
+####5. ESC Calibration
+Calibrating ESCs individually (Currently Untested on PX4)
 
+Plug one of your ESC three-wire cables into the throttle channel of the RC receiver. (This is usually channel 3.)
+Turn on the transmitter and set throttle stick to maximum (full up).
+Connect the LiPo battery
+You will hear a musical tone then two beeps.
+After the two beeps, lower the throttle stick to full down.
+You will then hear a number of beeps (one for each battery cell you’re using) and finally a single long beep indicating the end points have been set and the ESC is calibrated.
+Disconnect battery. Repeat these steps for all ESCs.
+If it appears that the ESC’s did not calibrate then the throttle channel on the transmitter might need to be reversed.
+If you are still having trouble after trying these methods (for example, ESCs still beep continuously) try lowering your throttle trim 50%.
+You can also try powering your APM board via the USB first to boot it up before plugging in the LiPo.
+#####Testing
+Once you have calibrated your ESCs, you can test them by plugging in your LiPo.  Remember: no propellers!
+
+Ensure your transmitter’s flight mode switch is set to “Stabilize Mode”.
+Arm your copter
+Give a small amount of throttle.  All motors should spin at about same speed and they should start at the same time. If the motors do not all start at the same time and spin at the same speed, the ESC’s are still not properly calibrated.
+Disarm your copter
 ##Issues and Failures
 1. Initially we thought that since the ESCs we have are similar to the DYS designs that they should be flashed with SimonK's DYS N-FET bu that was a mistake, because these ESC's are quite different.
 2. Motors started spinning slightly after Arming, disabled MOT_SPIN_ARMED parameter. 
