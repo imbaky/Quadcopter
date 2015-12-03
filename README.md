@@ -132,6 +132,8 @@ Once you have calibrated your ESCs, you can test them by plugging in your LiPo. 
 1. Initially we thought that since the ESCs we have are similar to the DYS designs that they should be flashed with SimonK's DYS N-FET bu that was a mistake, because these ESC's are quite different.
 2. Motors started spinning slightly after Arming, disabled MOT_SPIN_ARMED parameter. 
 3. Motors don't start spinning at the same time. ESC need to be calibrated.
+4. During flight test DMC_BAD_HEADING error and unstability. Its a common issue with the IMU/OilPan. It decalibrates due to excessive vibration and rotation.
+5. RC calibration Fails and needs to be adjusted Manually.
 
 ##References
 1. APM archived manual- https://code.google.com/p/ardupirates/wiki/RC 
