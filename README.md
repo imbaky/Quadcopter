@@ -47,6 +47,7 @@ Configuring the motor directions:
 3. Switch any two of the wires to reverse the direction of the motors to much the diagram below. 
 
 </br><img src="./images/Motor_Dir.jpg" alt="Motor direction" height="400" width="700">
+N.B The motor numbers correspond to the pin numbers on the APM, Do not use the Motor Test to Identify the motors.
 
 ###RC Setup
 The remote control and transceiver need to be binded as follows:
@@ -132,8 +133,9 @@ Once you have calibrated your ESCs, you can test them by plugging in your LiPo. 
 1. Initially we thought that since the ESCs we have are similar to the DYS designs that they should be flashed with SimonK's DYS N-FET bu that was a mistake, because these ESC's are quite different.
 2. Motors started spinning slightly after Arming, disabled MOT_SPIN_ARMED parameter. 
 3. Motors don't start spinning at the same time. ESC need to be calibrated.
-4. During flight test DMC_BAD_HEADING error and unstability. Its a common issue with the IMU/OilPan. It decalibrates due to excessive vibration and rotation.
+4. During flight test DMC_BAD_HEADING error and unstability. We had the quadcopter suspended by a rope and it was vibrating and a common issue with the IMU/OilPan is that It decalibrates due to excessive vibration and rotation.
 5. RC calibration Fails and needs to be adjusted Manually.
+6. During the Flight test the quad didn't stabilize and tended to flip on one side. Check Motors (order, Direction and ESC calibration). We had configured the motors using the motor test in the mission planner, thinking that the order (A-B-C-D) corresponds to the motor numbers (1-2-3-4) but it turns out the motor test order each motor rotating clockwise around the quad.
 
 ##References
 1. APM archived manual- https://code.google.com/p/ardupirates/wiki/RC 
