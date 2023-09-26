@@ -138,9 +138,9 @@ Once you have calibrated your ESCs, you can test them by plugging in your LiPo. 
 6. During the Flight test the quad didn't stabilize and tended to flip on one side. Check Motors (order, Direction and ESC calibration). We had configured the motors using the motor test in the mission planner, thinking that the order (A-B-C-D) corresponds to the motor numbers (1-2-3-4) but it turns out the motor test order each motor rotating clockwise around the quad.
 
 ## References
-1. APM archived manual- https://code.google.com/p/ardupirates/wiki/RC 
-2. Drivers for AVRISP- http://zadig.akeo.ie/
-3. ESC Flashing- http://www.rchacker.com/diy/simonk-esc-firmware-flashing
-4. Xbee 2-way communication- http://www.ardupilot.co.uk/guide/ardupilot-mega-telemetry-kit-2-way-communications-with-your-uav
-5. ESC firmware Database- https://docs.google.com/spreadsheet/ccc?key=0AhR02IDNb7_MdEhfVjk3MkRHVzhKdjU1YzdBQkZZRlE#gid=0
+1. APM archived manual - https://code.google.com/p/ardupirates/wiki/RC 
+2. Drivers for AVRISP - http://zadig.akeo.ie/
+3. ESC Flashing - http://www.rchacker.com/diy/simonk-esc-firmware-flashing
+4. Xbee 2-way communication - http://www.ardupilot.co.uk/guide/ardupilot-mega-telemetry-kit-2-way-communications-with-your-uav
+5. ESC firmware Database - https://docs.google.com/spreadsheet/ccc?key=0AhR02IDNb7_MdEhfVjk3MkRHVzhKdjU1YzdBQkZZRlE#gid=0
 
