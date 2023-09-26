@@ -81,7 +81,7 @@ How it's done:
 ### Communication
 
 Initially the arducopter was only setup to recieve telemetry while connected through the usb connector. We soldered telemetry pins on board in order to connect an Xbee pro on board for two-way communication between our laptop and Apm.
-</br><img src="./images/xbeeCommunication.jpg" alt="Xbee Connection" height="400"width="600">
+</br><img src="./images/xbeeCommunication.jpg" alt="Xbee Connection" height="400" width="600">
 
 In order for this to work the Xbees need to be configured to 57600 Baud rate and binded together.
 To bind the Xbees properly follow the following steps:
