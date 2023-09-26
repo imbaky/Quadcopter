@@ -97,7 +97,7 @@ To bind the Xbees properly follow the following steps:
 9. change the Xbee to End
 
 
-###Parameter changes
+### Parameter changes
 Changes to the default parameter in Arducopter can be written using the mission planner.
 * Changed RC pins for Throttle, Yaw, Pitch and Roll to correspond with RC transciever. (channel 7, 6, 5 and 4)
 
