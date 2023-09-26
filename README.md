@@ -68,15 +68,15 @@ How it's done:
 2. Remove Cover just enough to access the SPI pads ![ESC power]()
 </br><img src="./images/ESC_cut.jpg" alt="ESC power" height="400" width="600">
 3. Modified the connection from an avrisp mkii programmer to be able to connect to the ESC (MISO, MOSI, REST, VCC, GND) 
-</br><img src="./images/AVRISP.jpg" alt="avrisp mkii" height="400"width="500">
-</br><img src="./images/avrispmkII-pin.jpg" alt="AVR" height="400"width="600">
-</br><img src="./images/Connection.jpg" alt="Modified Connection" height="400"width="500">
+</br><img src="./images/AVRISP.jpg" alt="avrisp mkii" height="400" width="500">
+</br><img src="./images/avrispmkII-pin.jpg" alt="AVR" height="400" width="600">
+</br><img src="./images/Connection.jpg" alt="Modified Connection" height="400" width="500">
 4. Connect ESC to power (6-16v)
-</br><img src="./images/ESC_power.jpg" alt="ESC power" height="400"width="600">
+</br><img src="./images/ESC_power.jpg" alt="ESC power" height="400" width="600">
 5. Attach connection to the pads in the correct position
-</br><img src="./images/ESC_Flashing.jpg" alt="ESC Connect" height="400"width="600">
+</br><img src="./images/ESC_Flashing.jpg" alt="ESC Connect" height="400" width="600">
 6. Using KKmulticopter Flashing tool, flash with the latest SimonK firmware TYG version 
-</br><img src="./images/ESC_DONE.jpg" alt="ESC Flashed" height="400"width="600">
+</br><img src="./images/ESC_DONE.jpg" alt="ESC Flashed" height="400" width="600">
 
 ### Communication
 
